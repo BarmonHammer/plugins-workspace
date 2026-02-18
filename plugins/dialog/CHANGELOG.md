@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.6.1]
+
+### Dependencies
+
+- Upgraded to `fs-js@2.5.0`
+
 ## \[2.6.0]
 
 - [`d7a0bb32`](https://github.com/tauri-apps/plugins-workspace/commit/d7a0bb325dad919d6cc132eb3898c33540de77c4) ([#3136](https://github.com/tauri-apps/plugins-workspace/pull/3136) by [@onehumandev](https://github.com/tauri-apps/plugins-workspace/../../onehumandev)) Add `fileAccessMode` option to file picker.

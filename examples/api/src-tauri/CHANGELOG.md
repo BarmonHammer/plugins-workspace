@@ -1,5 +1,13 @@
 # Changelog
 
+## \[2.0.42]
+
+### Dependencies
+
+- Upgraded to `fs@2.5.0`
+- Upgraded to `http@2.5.8`
+- Upgraded to `dialog@2.6.1`
+
 ## \[2.0.41]
 
 ### Dependencies

@@ -1,5 +1,9 @@
 # Changelog
 
+## \[2.5.0]
+
+- [`e97a4ded`](https://github.com/tauri-apps/plugins-workspace/commit/e97a4dedab8608d9d57029784ee8a2607ca3a996) ([#3244](https://github.com/tauri-apps/plugins-workspace/pull/3244) by [@SeijiOkuda](https://github.com/tauri-apps/plugins-workspace/../../SeijiOkuda)) Add `encoding` option for `readTextFile` and `readTextFileLines`
+
 ## \[2.4.5]
 
 - [`521cd8b3`](https://github.com/tauri-apps/plugins-workspace/commit/521cd8b372c862d96b1637775710e4d7cf2443e2) ([#3155](https://github.com/tauri-apps/plugins-workspace/pull/3155) by [@EliasStar](https://github.com/tauri-apps/plugins-workspace/../../EliasStar)) Fix off by one error in the implementation of readTextFileLines causing all lines to end with an (additional) null byte.

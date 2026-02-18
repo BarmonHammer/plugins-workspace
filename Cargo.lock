@@ -207,7 +207,7 @@ checksum = "e16d2d3311acee920a9eb8d33b8cbc1787ce4a264e85f964c2404b969bdcd487"
 
 [[package]]
 name = "api"
-version = "2.0.41"
+version = "2.0.42"
 dependencies = [
  "log",
  "serde",
@@ -6702,7 +6702,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-dialog"
-version = "2.6.0"
+version = "2.6.1"
 dependencies = [
  "log",
  "raw-window-handle",
@@ -6718,7 +6718,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-fs"
-version = "2.4.5"
+version = "2.5.0"
 dependencies = [
  "anyhow",
  "dunce",
@@ -6779,7 +6779,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-http"
-version = "2.5.7"
+version = "2.5.8"
 dependencies = [
  "bytes",
  "cookie_store",
@@ -6907,7 +6907,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-persisted-scope"
-version = "2.3.5"
+version = "2.3.6"
 dependencies = [
  "aho-corasick",
  "bincode",
