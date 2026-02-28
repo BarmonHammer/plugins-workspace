@@ -67,7 +67,7 @@ impl Builder {
                     for req in server.incoming_requests() {
                         let path = req
                             .url().split('?').next()
-                            .unwrap_or_else(|_| req.url()).into();
+                            .unwrap_or( req.url()).into();
 
                         #[allow(unused_mut)]
                         if let Some(mut asset) = asset_resolver.get(path) {
