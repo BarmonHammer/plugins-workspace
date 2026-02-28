@@ -66,7 +66,7 @@ impl Builder {
                         Server::http(format!("localhost:{port}")).expect("Unable to spawn server");
                     for req in server.incoming_requests() {
                         let path = req
-                            .url().split('?')
+                            .url().split('?').next()
                             .unwrap_or_else(|_| req.url()).into();
 
                         #[allow(unused_mut)]
