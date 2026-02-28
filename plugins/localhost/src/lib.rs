@@ -66,10 +66,8 @@ impl Builder {
                         Server::http(format!("localhost:{port}")).expect("Unable to spawn server");
                     for req in server.incoming_requests() {
                         let path = req
-                            .url()
-                            .parse::<Uri>()
-                            .map(|uri| uri.path().into())
-                            .unwrap_or_else(|_| req.url().into());
+                            .url().split('?')
+                            .unwrap_or_else(|_| req.url()).into();
 
                         #[allow(unused_mut)]
                         if let Some(mut asset) = asset_resolver.get(path) {
